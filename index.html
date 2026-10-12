@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roger Casals-Franch · Computational biologist</title>
+  <meta name="description" content="Roger Casals-Franch, computational biologist and PhD candidate in Bioinformatics at UVic-UCC. Gene regulatory networks, trajectory inference and mechanistic models of immune-cell state transitions from single-cell data.">
+  <meta name="author" content="Roger Casals-Franch">
+  <link rel="canonical" href="https://rogercasalsfr.github.io/cv/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Roger Casals-Franch · Computational biologist">
+  <meta property="og:description" content="Mechanistic and predictive models of immune-cell state transitions from single-cell and multimodal data.">
+  <meta property="og:url" content="https://rogercasalsfr.github.io/cv/">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    // apply a saved theme before first paint
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Roger Casals-Franch",
+    "jobTitle": "Computational biologist, PhD candidate in Bioinformatics",
+    "url": "https://rogercasalsfr.github.io/cv/",
+    "email": "mailto:rcasals2012@gmail.com",
+    "affiliation": [
+      {"@type": "Organization", "name": "Universitat de Vic - Universitat Central de Catalunya (UVic-UCC)"},
+      {"@type": "Organization", "name": "IRIS-CC"},
+      {"@type": "Organization", "name": "IrsiCaixa AIDS Research Institute"}
+    ],
+    "sameAs": [
+      "https://orcid.org/0009-0009-0889-6116",
+      "https://scholar.google.com/citations?user=EPEU-ioAAAAJ",
+      "https://github.com/rogercasalsfr",
+      "https://linkedin.com/in/roger-casals-franch-06583282",
+      "https://bsky.app/profile/rogercasalsf.bsky.social"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">Roger Casals-Franch</a>
+      <nav aria-label="Sections">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#web">Websites</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+      </nav>
+      <button class="theme-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Computational biologist · PhD candidate in Bioinformatics</p>
+          <h1>Roger Casals-Franch</h1>
+          <p class="lede">
+            I build mechanistic and predictive models of how immune cells change state, using single-cell and
+            multimodal data: gene regulatory networks, trajectory inference and perturbation modelling,
+            applied to T cells in cancer, immunotherapy and HIV vaccination.
+          </p>
+          <p class="where">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            UVic-UCC &amp; IRIS-CC, Vic · IrsiCaixa, Badalona
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="assets/Roger_Casals-Franch_CV.pdf" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download CV
+            </a>
+            <a class="btn" href="mailto:rcasals2012@gmail.com">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email
+            </a>
+          </div>
+
+          <ul class="socials" aria-label="Profiles">
+            <li><a href="https://scholar.google.com/citations?user=EPEU-ioAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a></li>
+            <li><a href="https://orcid.org/0009-0009-0889-6116" aria-label="ORCID" title="ORCID"><i class="fa-brands fa-orcid"></i></a></li>
+            <li><a href="https://github.com/rogercasalsfr" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/in/roger-casals-franch-06583282" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://bsky.app/profile/rogercasalsf.bsky.social" aria-label="Bluesky" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a></li>
+          </ul>
+        </div>
+
+        <figure class="hero-fig" aria-label="Animated toy Boolean gene regulatory network of T-cell states">
+          <svg viewBox="0 0 330 250" role="img" aria-hidden="true">
+            <defs>
+              <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse"
+                      markerWidth="8" markerHeight="8" orient="auto">
+                <path class="mk-act" d="M0,0 L10,5 L0,10 z"/>
+              </marker>
+              <marker id="inh" viewBox="0 0 3 12" refX="1.5" refY="6" markerUnits="userSpaceOnUse"
+                      markerWidth="3" markerHeight="12" orient="auto">
+                <rect class="mk-inh" x="0" y="0" width="3" height="12"/>
+              </marker>
+            </defs>
+            <line class="e-act" x1="61.1" y1="63.0" x2="52.9" y2="202.0" marker-end="url(#arr)"/>
+            <line class="e-act" x1="89.8" y1="45.0" x2="159.5" y2="37.5" marker-end="url(#arr)"/>
+            <line class="e-act" x1="207.9" y1="48.0" x2="259.4" y2="93.4" marker-end="url(#arr)"/>
+            <line class="e-act" x1="274.2" y1="123.0" x2="264.0" y2="206.0" marker-end="url(#arr)"/>
+            <line class="e-act" x1="197.5" y1="48.8" x2="256.1" y2="206.3" marker-end="url(#arr)"/>
+            <line class="e-act" x1="112.0" y1="139.1" x2="149.7" y2="150.4" marker-end="url(#arr)"/>
+            <line class="e-inh" x1="251.7" y1="121.5" x2="208.1" y2="145.6" marker-end="url(#inh)"/>
+            <line class="e-inh" x1="112.1" y1="128.9" x2="242.5" y2="112.3" marker-end="url(#inh)"/>
+            <line class="e-inh" x1="244.6" y1="99.2" x2="91.6" y2="56.3" marker-end="url(#inh)"/>
+            <g class="gn" style="--d:0s"><rect x="27.2" y="206" width="49.6" height="24" rx="12"/><text x="52" y="218.5">IL7R</text></g>
+            <g class="gn" style="--d:0s"><rect x="37.2" y="36" width="49.6" height="24" rx="12"/><text x="62" y="48.5">TCF7</text></g>
+            <g class="gn" style="--d:1.3s"><rect x="163.5" y="22" width="57" height="24" rx="12"/><text x="192" y="34.5">EOMES</text></g>
+            <g class="gn" style="--d:2.5s"><rect x="247.5" y="96" width="57" height="24" rx="12"/><text x="276" y="108.5">TBX21</text></g>
+            <g class="gn" style="--d:3.4s"><rect x="237.2" y="210" width="49.6" height="24" rx="12"/><text x="262" y="222.5">GZMB</text></g>
+            <g class="gn" style="--d:4.8s"><rect x="66.9" y="120" width="42.2" height="24" rx="12"/><text x="88" y="132.5">TOX</text></g>
+            <g class="gn" style="--d:5.9s"><rect x="153.5" y="148" width="57" height="24" rx="12"/><text x="182" y="160.5">PDCD1</text></g>
+          </svg>
+          <figcaption>
+            A toy Boolean network of T-cell states.
+            <span class="legend"><span class="lg-act">→ activates</span><span class="lg-inh">⊣ represses</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2>About</h2>
+        <div class="about-grid">
+          <div class="prose">
+            <p>
+              I am a PhD candidate in Bioinformatics at the Universitat de Vic – Universitat Central de Catalunya
+              (UVic-UCC), supervised by Jordi Villà-Freixa and Adrián López García de Lomana. I integrate
+              transcriptomic, epigenomic, metabolic and T-cell receptor repertoire data to study how T and NKT
+              cells respond to vaccination, chronic infection, cancer and immunotherapy.
+            </p>
+            <p>
+              My work centres on gene regulatory network inference, trajectory analysis and perturbation
+              modelling, and I am increasingly using deep learning and biological foundation models on large
+              perturbational datasets. The long-term aim is to combine mechanistic systems biology with modern
+              AI to produce interpretable hypotheses about immune control, dysfunction and therapeutic response.
+            </p>
+            <p class="muted">PhD defence expected July 2027.</p>
+          </div>
+
+          <aside class="now card">
+            <h3>Currently</h3>
+            <ul>
+              <li>
+                <strong>PhD candidate</strong>
+                <span>UVic-UCC · since 2023</span>
+              </li>
+              <li>
+                <strong>Bioinformatics support &amp; HPC administrator</strong>
+                <span>IRIS-CC, UVic-UCC · since 2023</span>
+              </li>
+              <li>
+                <strong>Bioinformatics research support, HIV vaccination</strong>
+                <span>IrsiCaixa, group of Christian Brander · since 2025</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="toolbox">
+          <h3>Toolbox</h3>
+          <ul class="tags">
+            <li>Python</li><li>R</li><li>Bash</li><li>Scanpy / scverse</li><li>Monocle3</li>
+            <li>SCENIC / SCENIC+</li><li>CellOracle</li><li>decoupler</li><li>TCR repertoire</li>
+            <li>PyTorch</li><li>VAEs</li><li>Snakemake</li><li>Slurm / HPC</li><li>Docker</li><li>Apptainer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="cards">
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>Boolyne</h3>
+              <span class="badge badge-dev">In development</span>
+            </div>
+            <p class="meta">PhD method · UVic-UCC</p>
+            <p>
+              A Boolean gene regulatory network framework for mechanistic modelling of cell-state transitions.
+              Networks inferred from single-cell multi-omic data are constrained to reproduce the cell states and
+              transitions actually observed, so that in silico perturbations can be read mechanistically.
+            </p>
+            <ul class="tags small"><li>Boolean networks</li><li>GRN inference</li><li>Perturbations</li></ul>
+            <p class="links-note">Presented at JBI 2025, scverse 2025 (Stanford) and ECCB 2026.</p>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>T-cell reprogramming under PD-1 blockade</h3>
+            </div>
+            <p class="meta">PhD · with L. Nonell, J. Villà-Freixa, A. López García de Lomana</p>
+            <p>
+              Trajectory inference and gene regulatory network analysis of 25,581 tumour-infiltrating T cells
+              from squamous cell carcinoma, before and after anti-PD-1. Resolves memory-to-exhaustion
+              trajectories driven by EOMES and TCF7, Tpex vs Tex rewiring, and enhanced CXCL13⁺ Tfh responses.
+            </p>
+            <ul class="tags small"><li>Trajectory inference</li><li>SCENIC</li><li>TCR clonotypes</li></ul>
+            <div class="links">
+              <a href="https://doi.org/10.1101/2025.10.15.682506"><i class="fa-solid fa-file-lines"></i> Preprint</a>
+              <a href="https://github.com/rogercasalsfr/Itx_anl"><i class="fa-brands fa-github"></i> Analysis code</a>
+              <a href="https://github.com/rogercasalsfr/immuno-trajectory-grn-integrative-workflow"><i class="fa-solid fa-box"></i> Reproducible protocol</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>GRETA: benchmarking multimodal GRN inference</h3>
+            </div>
+            <p class="meta">Saez-Rodriguez group, Heidelberg · 2024</p>
+            <p>
+              A modular Snakemake framework to compare methods that infer gene regulatory networks from paired
+              and unpaired single-cell RNA + ATAC data. Inferred networks proved highly sensitive to
+              method choices and struggled to capture causal effects from perturbation assays.
+            </p>
+            <ul class="tags small"><li>Benchmark</li><li>scRNA + scATAC</li><li>Snakemake</li></ul>
+            <div class="links">
+              <a href="https://doi.org/10.1101/2024.12.20.629764"><i class="fa-solid fa-file-lines"></i> Preprint</a>
+              <a href="https://github.com/saezlab/greta"><i class="fa-brands fa-github"></i> saezlab/greta</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>Therapeutic HIV vaccination at single-cell resolution</h3>
+              <span class="badge badge-dev">Ongoing</span>
+            </div>
+            <p class="meta">IrsiCaixa · group of Christian Brander</p>
+            <p>
+              Single-cell transcriptomic and epigenomic analysis of BCN03, a therapeutic HIV vaccine trial,
+              to characterise vaccine-induced changes in gene regulation. T- and NKT-cell state annotation is
+              integrated with TCR repertoire analysis to compare clonotype usage between people with HIV and
+              healthy controls.
+            </p>
+            <ul class="tags small"><li>scRNA + scATAC</li><li>TCR repertoire</li><li>NKT cells</li></ul>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>Physics-informed neural networks for the repressilator</h3>
+            </div>
+            <p class="meta">with B. Casajuana, A. López García de Lomana, P. Martí-Puig, J. Villà-Freixa · 2026</p>
+            <p>
+              How reliably can PINNs recover kinetic parameters of a synthetic genetic oscillator? Trajectories
+              are reconstructed well, but parameter recovery is fragile under noise, sparse sampling, unobserved
+              repressors and poor initial guesses, especially in the oscillatory regime.
+            </p>
+            <ul class="tags small"><li>PINNs</li><li>ODE inverse problems</li><li>Dynamical systems</li></ul>
+            <div class="links">
+              <a href="https://doi.org/10.64898/2026.05.12.724679"><i class="fa-solid fa-file-lines"></i> Preprint</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>Predicting single-cell perturbation responses</h3>
+              <span class="badge badge-ok">Top 10%</span>
+            </div>
+            <p class="meta">Open Problems – Single-Cell Perturbations (Kaggle)</p>
+            <p>
+              Predicted gene-expression responses to unseen drug perturbations by combining scRNA-seq and
+              scATAC-seq, using SCENIC+ regulatory networks as priors for machine-learning and variational
+              autoencoder models. Ranked in the top 10% of more than 1,000 teams.
+            </p>
+            <ul class="tags small"><li>VAEs</li><li>SCENIC+</li><li>Multi-omics</li></ul>
+            <div class="links">
+              <a href="https://github.com/rogercasalsfr/OpenProblems"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="https://www.kaggle.com/competitions/open-problems-single-cell-perturbations"><i class="fa-brands fa-kaggle"></i> Competition</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>scHLA-demux</h3>
+            </div>
+            <p class="meta">Workflow · Snakemake</p>
+            <p>
+              Donor demultiplexing of pooled 10x single-cell data from raw FASTQs: Cell Ranger multi,
+              genotype-based clustering with souporcell, HLA typing of each cluster with arcasHLA, and
+              matching back to known donor HLA alleles.
+            </p>
+            <ul class="tags small"><li>10x Genomics</li><li>HLA typing</li><li>Snakemake</li></ul>
+            <div class="links">
+              <a href="https://github.com/rogercasalsfr/scHLA-demux"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>Expression-informed metabolic modelling</h3>
+            </div>
+            <p class="meta">Biomedical Center, University of Iceland · 2025</p>
+            <p>
+              Context-specific genome-scale metabolic models built from RNA-seq with rFASTCORMICS, constrained
+              with Seahorse measurements and analysed with COBRApy, to predict metabolic responses to treatment.
+            </p>
+            <ul class="tags small"><li>Constraint-based models</li><li>COBRApy</li><li>RNA-seq</li></ul>
+            <div class="links">
+              <a href="https://github.com/rogercasalsfr/metabolism"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="card-head">
+              <h3>SECUELAS hackathon: lung recovery after hospitalisation</h3>
+            </div>
+            <p class="meta">Team project, Group 9 · with I. Carbó, M. Navarro, G. Ruiz · 2026</p>
+            <p>
+              A hierarchical Bayesian model that predicts, from the 3-month follow-up visit, whether lung
+              diffusing capacity (DLCO) will recover by 6 months and whether the patient will return, across
+              three post-COVID and post-ICU cohorts. Validated on unseen hospitals and served through a web app.
+            </p>
+            <ul class="tags small"><li>Bayesian models</li><li>Clinical prediction</li><li>Web app</li></ul>
+            <div class="links">
+              <a href="https://github.com/rogercasalsfr/secuelas-group9" title="Private repository, access on request">
+                <i class="fa-solid fa-lock"></i> Repository (private)
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publications" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Publications</h2>
+          <a class="see-all" href="https://scholar.google.com/citations?user=EPEU-ioAAAAJ&amp;hl=en">Google Scholar <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <ol class="pubs">
+          <li>
+            <span class="pub-year">2026</span>
+            <div>
+              <p class="pub-title"><a href="https://doi.org/10.1101/2025.10.15.682506">Transcriptional reprogramming of tumor-infiltrating T cells during PD-1 blockade revealed through gene regulatory network and trajectory inference in squamous cell carcinoma</a></p>
+              <p class="pub-authors"><strong>Casals-Franch R</strong>, Villà-Freixa J, Nonell L, López García de Lomana A.</p>
+              <p class="pub-venue"><span class="badge badge-ok">Accepted</span> <em>Springer Protocols</em> · preprint <em>bioRxiv</em> 2025</p>
+            </div>
+          </li>
+          <li>
+            <span class="pub-year">2024</span>
+            <div>
+              <p class="pub-title"><a href="https://doi.org/10.1101/2024.12.20.629764">Comparison and evaluation of methods to infer gene regulatory networks from multimodal single-cell data</a></p>
+              <p class="pub-authors">Badia-i-Mompel P, <strong>Casals-Franch R</strong>, Wessels L, Müller-Dott S, Trimbour R, Yang Y, Ramirez Flores RO, Saez-Rodriguez J.</p>
+              <p class="pub-venue"><span class="badge badge-rev">Under revision</span> <em>Nature Methods</em> · preprint <em>bioRxiv</em> 2024</p>
+            </div>
+          </li>
+          <li>
+            <span class="pub-year">2026</span>
+            <div>
+              <p class="pub-title"><a href="https://doi.org/10.64898/2026.05.12.724558">Integrating trajectory inference and gene regulatory network analysis to resolve transcriptional programs of T cell state transitions in the tumor microenvironment</a></p>
+              <p class="pub-authors"><strong>Casals-Franch R</strong>, Nonell L, Villà-Freixa J, López García de Lomana A.</p>
+              <p class="pub-venue"><span class="badge badge-rev">Under revision</span> <em>PLOS ONE</em> · protocol preprint <em>bioRxiv</em> 2026 ·
+                <a href="https://github.com/rogercasalsfr/immuno-trajectory-grn-integrative-workflow">code</a></p>
+            </div>
+          </li>
+          <li>
+            <span class="pub-year">2026</span>
+            <div>
+              <p class="pub-title"><a href="https://doi.org/10.64898/2026.05.12.724679">Physics-informed neural networks for parameter recovery in the repressilator oscillatory model</a></p>
+              <p class="pub-authors">Casajuana B, <strong>Casals-Franch R</strong>, López García de Lomana A, Martí-Puig P, Villà-Freixa J.</p>
+              <p class="pub-venue"><span class="badge">Preprint</span> <em>bioRxiv</em> 2026</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TALKS ============ -->
+    <section id="talks" class="section">
+      <div class="wrap">
+        <h2>Talks &amp; posters</h2>
+        <ul class="timeline">
+          <li>
+            <span class="when">Sep 2026</span>
+            <div>
+              <p class="what"><span class="kind">Poster</span> On the prediction of observed cell states from inferred gene regulatory networks</p>
+              <p class="venue">25th European Conference on Computational Biology (ECCB), Geneva</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Nov 2025</span>
+            <div>
+              <p class="what"><span class="kind">Talk + poster</span> Mechanistic inference of cell state transitions via Boolean GRNs from single-cell data</p>
+              <p class="venue">scverse conference, Stanford University (travel grant)</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Oct 2025</span>
+            <div>
+              <p class="what"><span class="kind">Talk + poster</span> Mechanistic inference of cell state transitions via Boolean GRNs from single-cell data</p>
+              <p class="venue">JBI Conference, Madrid</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Oct 2024</span>
+            <div>
+              <p class="what"><span class="kind">Poster</span> Trajectory inference on T cell response upon immunotherapy in non-melanoma skin cancer</p>
+              <p class="venue">1st Congress of the Spanish Society of Bioinformatics and Computational Biology (SEBiBC), València</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Feb 2024</span>
+            <div>
+              <p class="what"><span class="kind">Flash talk + poster</span> Trajectory inference methods comparison in cancer immunotherapy</p>
+              <p class="venue">VHIO Computational Oncology Master's Thesis Award, Barcelona</p>
+            </div>
+          </li>
+        </ul>
+        <p class="muted small-note">Plus five presentations at UVic-UCC and Catalan inter-university PhD workshops, 2024–2025.</p>
+      </div>
+    </section>
+
+    <!-- ============ WEBSITES ============ -->
+    <section id="web" class="section">
+      <div class="wrap">
+        <h2>Websites &amp; tools I've built</h2>
+        <div class="cards cards-3">
+          <a class="card site" href="https://quantitativebiologyiriscc.github.io/USBioinfo/">
+            <i class="fa-solid fa-dna site-icon" aria-hidden="true"></i>
+            <h3>IRIS-CC Bioinformatics Service</h3>
+            <p>Website of the institute's bioinformatics service: what we offer, R and Python documentation and omics tutorials.</p>
+            <span class="url">quantitativebiologyiriscc.github.io/<wbr>USBioinfo</span>
+          </a>
+          <a class="card site" href="https://quantitativebiologyiriscc.github.io/hpcuvic/">
+            <i class="fa-solid fa-server site-icon" aria-hidden="true"></i>
+            <h3>UVic-UCC HPC manual</h3>
+            <p>User guide for the university's Slurm cluster, which I administer: access, submitting jobs and good practice.</p>
+            <span class="url">quantitativebiologyiriscc.github.io/<wbr>hpcuvic</span>
+          </a>
+          <a class="card site" href="https://github.com/orgs/QuantitativeBiologyIRISCC/repositories">
+            <i class="fa-brands fa-github site-icon" aria-hidden="true"></i>
+            <h3>QuantitativeBiologyIRISCC</h3>
+            <p>GitHub organisation for the research workflows and resources of the IRIS-CC quantitative biology group.</p>
+            <span class="url">github.com/QuantitativeBiologyIRISCC</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE / EDUCATION ============ -->
+    <section id="experience" class="section">
+      <div class="wrap">
+        <div class="two-col">
+          <div>
+            <h2>Experience</h2>
+            <ul class="entries">
+              <li>
+                <p class="e-title">Bioinformatics research support, HIV vaccination</p>
+                <p class="e-org">IrsiCaixa AIDS Research Institute, Badalona</p>
+                <p class="e-when">2025 – present</p>
+              </li>
+              <li>
+                <p class="e-title">Bioinformatics support &amp; HPC administrator</p>
+                <p class="e-org">IRIS-CC, UVic-UCC</p>
+                <p class="e-when">2023 – present</p>
+              </li>
+              <li>
+                <p class="e-title">Visiting researcher, metabolic modelling</p>
+                <p class="e-org">Biomedical Center, University of Iceland, Reykjavík</p>
+                <p class="e-when">May – Jun 2025</p>
+              </li>
+              <li>
+                <p class="e-title">Visiting researcher, regulatory network inference</p>
+                <p class="e-org">Saez-Rodriguez group, Heidelberg University</p>
+                <p class="e-when">May – Jul 2024</p>
+              </li>
+              <li>
+                <p class="e-title">MSc research project, trajectory inference</p>
+                <p class="e-org">Vall d'Hebron Institute of Oncology (VHIO), Barcelona</p>
+                <p class="e-when">May – Jul 2023</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Education</h2>
+            <ul class="entries">
+              <li>
+                <p class="e-title">PhD in Bioinformatics</p>
+                <p class="e-org">UVic-UCC · supervisors J. Villà-Freixa, A. López García de Lomana</p>
+                <p class="e-when">2023 – 2027 (expected)</p>
+              </li>
+              <li>
+                <p class="e-title">MSc in Bioinformatics and Biostatistics</p>
+                <p class="e-org">Universitat Oberta de Catalunya / Universitat de Barcelona</p>
+                <p class="e-when">2022 – 2023</p>
+              </li>
+              <li>
+                <p class="e-title">BSc in Biotechnology</p>
+                <p class="e-org">Universitat Autònoma de Barcelona</p>
+                <p class="e-when">2018 – 2022</p>
+              </li>
+            </ul>
+
+            <h2 class="h2-gap">Teaching</h2>
+            <ul class="entries">
+              <li>
+                <p class="e-title">Bioinformatics II · Mathematics · Integrated Project I</p>
+                <p class="e-org">BSc Biotechnology, Business Administration and Biomedicine, UVic-UCC</p>
+                <p class="e-when">2025 – 2026</p>
+              </li>
+              <li>
+                <p class="e-title">Tools and workflows in HPC environments</p>
+                <p class="e-org">Workshop for research staff, UVic-UCC</p>
+                <p class="e-when">2025</p>
+              </li>
+              <li>
+                <p class="e-title">Mentoring</p>
+                <p class="e-org">Co-supervising a BSc thesis on single-cell transcriptomics; previously four undergraduate students</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AWARDS ============ -->
+    <section id="awards" class="section">
+      <div class="wrap">
+        <div class="two-col">
+          <div>
+            <h2>Awards</h2>
+            <ul class="plain">
+              <li><strong>Audience Award</strong>, Catalan final of “Present Your Thesis in 4 Minutes” (FCRI), 2026</li>
+              <li><strong>Winner</strong>, 9th UVic-UCC “Present Your Thesis in 4 Minutes”, 2026</li>
+              <li><strong>Top 10%</strong>, Open Problems – Single-Cell Perturbations</li>
+              <li><strong>Selected</strong>, VHIO Computational Oncology Master's Thesis Award, 2024</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Funding</h2>
+            <ul class="plain">
+              <li>Investigo predoctoral research contract, 2023 – present</li>
+              <li>Erasmus+ mobility grant, University of Iceland, 2025</li>
+              <li>Erasmus+ mobility grant, Heidelberg University, 2024</li>
+              <li>Travel grant, scverse conference, Stanford, 2025</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <div class="wrap">
+        <h2>Get in touch</h2>
+        <p>Happy to talk about single-cell modelling, gene regulatory networks or collaborations.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:rcasals2012@gmail.com"><i class="fa-solid fa-envelope"></i> rcasals2012@gmail.com</a>
+          <a class="btn" href="assets/Roger_Casals-Franch_CV.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year">2026</span> Roger Casals-Franch · Last updated October 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var btn = document.querySelector(".theme-btn");
+      var icon = btn.querySelector("i");
+      function isDark() {
+        return root.dataset.theme ? root.dataset.theme === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      }
+      function sync() { icon.className = isDark() ? "fa-solid fa-sun" : "fa-solid fa-moon"; }
+      btn.addEventListener("click", function () {
+        root.dataset.theme = isDark() ? "light" : "dark";
+        try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+        sync();
+      });
+      sync();
+      document.getElementById("year").textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
