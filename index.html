@@ -12,7 +12,9 @@
   <meta property="og:title" content="Roger Casals-Franch · Computational biologist">
   <meta property="og:description" content="Mechanistic and predictive models of immune-cell state transitions from single-cell and multimodal data.">
   <meta property="og:url" content="https://rogercasalsfr.github.io/cv/">
+  <meta property="og:image" content="https://rogercasalsfr.github.io/cv/assets/roger_headshot.jpg">
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://rogercasalsfr.github.io/cv/assets/roger_headshot.jpg">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,6 +37,7 @@
     "name": "Roger Casals-Franch",
     "jobTitle": "Computational biologist, PhD candidate in Bioinformatics",
     "url": "https://rogercasalsfr.github.io/cv/",
+    "image": "https://rogercasalsfr.github.io/cv/assets/roger_headshot.jpg",
     "email": "mailto:rcasals2012@gmail.com",
     "affiliation": [
       {"@type": "Organization", "name": "Universitat de Vic - Universitat Central de Catalunya (UVic-UCC)"},
@@ -108,39 +111,11 @@
           </ul>
         </div>
 
-        <figure class="hero-fig" aria-label="Animated toy Boolean gene regulatory network of T-cell states">
-          <svg viewBox="0 0 330 250" role="img" aria-hidden="true">
-            <defs>
-              <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse"
-                      markerWidth="8" markerHeight="8" orient="auto">
-                <path class="mk-act" d="M0,0 L10,5 L0,10 z"/>
-              </marker>
-              <marker id="inh" viewBox="0 0 3 12" refX="1.5" refY="6" markerUnits="userSpaceOnUse"
-                      markerWidth="3" markerHeight="12" orient="auto">
-                <rect class="mk-inh" x="0" y="0" width="3" height="12"/>
-              </marker>
-            </defs>
-            <line class="e-act" x1="61.1" y1="63.0" x2="52.9" y2="202.0" marker-end="url(#arr)"/>
-            <line class="e-act" x1="89.8" y1="45.0" x2="159.5" y2="37.5" marker-end="url(#arr)"/>
-            <line class="e-act" x1="207.9" y1="48.0" x2="259.4" y2="93.4" marker-end="url(#arr)"/>
-            <line class="e-act" x1="274.2" y1="123.0" x2="264.0" y2="206.0" marker-end="url(#arr)"/>
-            <line class="e-act" x1="197.5" y1="48.8" x2="256.1" y2="206.3" marker-end="url(#arr)"/>
-            <line class="e-act" x1="112.0" y1="139.1" x2="149.7" y2="150.4" marker-end="url(#arr)"/>
-            <line class="e-inh" x1="251.7" y1="121.5" x2="208.1" y2="145.6" marker-end="url(#inh)"/>
-            <line class="e-inh" x1="112.1" y1="128.9" x2="242.5" y2="112.3" marker-end="url(#inh)"/>
-            <line class="e-inh" x1="244.6" y1="99.2" x2="91.6" y2="56.3" marker-end="url(#inh)"/>
-            <g class="gn" style="--d:0s"><rect x="27.2" y="206" width="49.6" height="24" rx="12"/><text x="52" y="218.5">IL7R</text></g>
-            <g class="gn" style="--d:0s"><rect x="37.2" y="36" width="49.6" height="24" rx="12"/><text x="62" y="48.5">TCF7</text></g>
-            <g class="gn" style="--d:1.3s"><rect x="163.5" y="22" width="57" height="24" rx="12"/><text x="192" y="34.5">EOMES</text></g>
-            <g class="gn" style="--d:2.5s"><rect x="247.5" y="96" width="57" height="24" rx="12"/><text x="276" y="108.5">TBX21</text></g>
-            <g class="gn" style="--d:3.4s"><rect x="237.2" y="210" width="49.6" height="24" rx="12"/><text x="262" y="222.5">GZMB</text></g>
-            <g class="gn" style="--d:4.8s"><rect x="66.9" y="120" width="42.2" height="24" rx="12"/><text x="88" y="132.5">TOX</text></g>
-            <g class="gn" style="--d:5.9s"><rect x="153.5" y="148" width="57" height="24" rx="12"/><text x="182" y="160.5">PDCD1</text></g>
-          </svg>
-          <figcaption>
-            A toy Boolean network of T-cell states.
-            <span class="legend"><span class="lg-act">→ activates</span><span class="lg-inh">⊣ represses</span></span>
-          </figcaption>
+        <figure class="hero-photo">
+          <picture>
+            <source media="(max-width: 859px)" srcset="assets/roger_headshot.jpg">
+            <img src="assets/roger_portrait.jpg" width="800" height="1000" alt="Portrait of Roger Casals-Franch">
+          </picture>
         </figure>
       </div>
     </section>
@@ -166,23 +141,59 @@
             <p class="muted">PhD defence expected July 2027.</p>
           </div>
 
-          <aside class="now card">
-            <h3>Currently</h3>
-            <ul>
-              <li>
-                <strong>PhD candidate</strong>
-                <span>UVic-UCC · since 2023</span>
-              </li>
-              <li>
-                <strong>Bioinformatics support &amp; HPC administrator</strong>
-                <span>IRIS-CC, UVic-UCC · since 2023</span>
-              </li>
-              <li>
-                <strong>Bioinformatics research support, HIV vaccination</strong>
-                <span>IrsiCaixa, group of Christian Brander · since 2025</span>
-              </li>
-            </ul>
-          </aside>
+          <div class="about-side">
+            <aside class="now card">
+              <h3>Currently</h3>
+              <ul>
+                <li>
+                  <strong>PhD candidate</strong>
+                  <span>UVic-UCC · since 2023</span>
+                </li>
+                <li>
+                  <strong>Bioinformatics support &amp; HPC administrator</strong>
+                  <span>IRIS-CC, UVic-UCC · since 2023</span>
+                </li>
+                <li>
+                  <strong>Bioinformatics research support, HIV vaccination</strong>
+                  <span>IrsiCaixa, group of Christian Brander · since 2025</span>
+                </li>
+              </ul>
+            </aside>
+            <figure class="grn-fig" aria-label="Animated toy Boolean gene regulatory network of T-cell states">
+              <svg viewBox="0 0 330 250" role="img" aria-hidden="true">
+                <defs>
+                  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse"
+                          markerWidth="8" markerHeight="8" orient="auto">
+                    <path class="mk-act" d="M0,0 L10,5 L0,10 z"/>
+                  </marker>
+                  <marker id="inh" viewBox="0 0 3 12" refX="1.5" refY="6" markerUnits="userSpaceOnUse"
+                          markerWidth="3" markerHeight="12" orient="auto">
+                    <rect class="mk-inh" x="0" y="0" width="3" height="12"/>
+                  </marker>
+                </defs>
+                <line class="e-act" x1="61.1" y1="63.0" x2="52.9" y2="202.0" marker-end="url(#arr)"/>
+                <line class="e-act" x1="89.8" y1="45.0" x2="159.5" y2="37.5" marker-end="url(#arr)"/>
+                <line class="e-act" x1="207.9" y1="48.0" x2="259.4" y2="93.4" marker-end="url(#arr)"/>
+                <line class="e-act" x1="274.2" y1="123.0" x2="264.0" y2="206.0" marker-end="url(#arr)"/>
+                <line class="e-act" x1="197.5" y1="48.8" x2="256.1" y2="206.3" marker-end="url(#arr)"/>
+                <line class="e-act" x1="112.0" y1="139.1" x2="149.7" y2="150.4" marker-end="url(#arr)"/>
+                <line class="e-inh" x1="251.7" y1="121.5" x2="208.1" y2="145.6" marker-end="url(#inh)"/>
+                <line class="e-inh" x1="112.1" y1="128.9" x2="242.5" y2="112.3" marker-end="url(#inh)"/>
+                <line class="e-inh" x1="244.6" y1="99.2" x2="91.6" y2="56.3" marker-end="url(#inh)"/>
+                <g class="gn" style="--d:0s"><rect x="27.2" y="206" width="49.6" height="24" rx="12"/><text x="52" y="218.5">IL7R</text></g>
+                <g class="gn" style="--d:0s"><rect x="37.2" y="36" width="49.6" height="24" rx="12"/><text x="62" y="48.5">TCF7</text></g>
+                <g class="gn" style="--d:1.3s"><rect x="163.5" y="22" width="57" height="24" rx="12"/><text x="192" y="34.5">EOMES</text></g>
+                <g class="gn" style="--d:2.5s"><rect x="247.5" y="96" width="57" height="24" rx="12"/><text x="276" y="108.5">TBX21</text></g>
+                <g class="gn" style="--d:3.4s"><rect x="237.2" y="210" width="49.6" height="24" rx="12"/><text x="262" y="222.5">GZMB</text></g>
+                <g class="gn" style="--d:4.8s"><rect x="66.9" y="120" width="42.2" height="24" rx="12"/><text x="88" y="132.5">TOX</text></g>
+                <g class="gn" style="--d:5.9s"><rect x="153.5" y="148" width="57" height="24" rx="12"/><text x="182" y="160.5">PDCD1</text></g>
+              </svg>
+              <figcaption>
+                A toy Boolean network of T-cell states.
+                <span class="legend"><span class="lg-act">→ activates</span><span class="lg-inh">⊣ represses</span></span>
+              </figcaption>
+            </figure>
+          </div>
         </div>
 
         <div class="toolbox">

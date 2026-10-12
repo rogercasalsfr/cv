@@ -164,9 +164,26 @@ h1 { font-size: clamp(2.1rem, 5.5vw, 3rem); font-weight: 700; letter-spacing: -.
 }
 .socials a:hover { color: var(--accent-ink); background: var(--surface-2); text-decoration: none; }
 
-/* GRN figure */
-.hero-fig { margin: 0; }
-.hero-fig svg { width: 100%; max-width: 420px; height: auto; display: block; margin: 0 auto; }
+/* portrait: 4:5 photo on desktop, round headshot above the name on phones */
+.hero-photo { margin: 0; }
+.hero-photo img {
+  display: block; width: 100%; max-width: 340px; height: auto; aspect-ratio: 4 / 5;
+  object-fit: cover; margin: 0 0 0 auto; border-radius: 18px;
+  background: var(--surface-2); box-shadow: var(--shadow);
+}
+@media (max-width: 859px) {
+  .hero-photo { order: -1; }
+  .hero-photo img {
+    width: 112px; height: 112px; aspect-ratio: 1; margin: 0;
+    border-radius: 50%; border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--border);
+  }
+  .hero-grid { gap: 20px; }
+}
+
+/* GRN figure (About section) */
+.about-side { display: flex; flex-direction: column; gap: 28px; align-self: start; }
+.grn-fig { margin: 0; }
+.grn-fig svg { width: 100%; max-width: 340px; height: auto; display: block; margin: 0 auto; }
 .e-act { stroke: var(--edge); stroke-width: 1.6; }
 .e-inh { stroke: var(--inhib); stroke-width: 1.6; opacity: .8; }
 .mk-act { fill: var(--edge); }
@@ -192,13 +209,12 @@ h1 { font-size: clamp(2.1rem, 5.5vw, 3rem); font-weight: 700; letter-spacing: -.
 @media (prefers-reduced-motion: reduce) {
   .gn rect, .gn text { animation: none; }
 }
-.hero-fig figcaption {
+.grn-fig figcaption {
   text-align: center; color: var(--faint); font-size: .8rem; margin-top: 8px;
 }
 .legend { display: flex; justify-content: center; gap: 14px; margin-top: 2px; }
 .lg-act { color: var(--muted); }
 .lg-inh { color: var(--inhib); }
-@media (max-width: 859px) { .hero-fig svg { max-width: 340px; } }
 
 /* ---------- sections ---------- */
 .section { padding: 56px 0; border-top: 1px solid var(--border); }
@@ -212,7 +228,6 @@ h1 { font-size: clamp(2.1rem, 5.5vw, 3rem); font-weight: 700; letter-spacing: -.
 .about-grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
 @media (min-width: 860px) { .about-grid { grid-template-columns: 1.6fr 1fr; gap: 40px; } }
 .prose p { color: var(--text); }
-.now { align-self: start; }
 .now h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--faint); margin-bottom: 12px; }
 .now li { padding: 10px 0; border-top: 1px solid var(--border); }
 .now li:first-child { border-top: 0; padding-top: 0; }
