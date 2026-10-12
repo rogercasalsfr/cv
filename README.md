@@ -18,3 +18,8 @@ Plain HTML and CSS, no build step. Push to `main` and the site updates within a 
 - **New CV:** replace `assets/Roger_Casals-Franch_CV.pdf`, keeping the same file name.
 
 Preview locally with `python3 -m http.server` and open <http://localhost:8000>.
+
+## License
+
+The HTML/CSS code is released under the [MIT License](LICENSE). The text, photos and CV are
+© Roger Casals-Franch and are not covered by that licence.
